@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="" href="./assets/aboutiii.jpeg" class="fav" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Portfolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Disha Byakod</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <!-- <div class="section__pic-container">
+      <img src="./assets/profile-pic.png" alt="Aditya Chaudhary profile picture" />
+    </div> -->
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Disha Byakod</h1>
+        <p class="section__text__p2">Software Developer</p>
+        <div class="btn-container">
+          <a
+            href="https://drive.google.com/file/d/1VGIcmZcfPm9X9S_sJO4pPR7X7pUK8TX4/view?usp=drive_link"
+            class="btn btn-color-2"
+            title="View Aditya's CV"
+            target="_blank"
+          >
+            View Resume
+          </a>
+
+          <a
+            href="./images/disha byakod resume.pdf"
+            download=""
+            class="btn btn-color-1"
+          >
+            Download Resume
+          </a>
+        </div>
+        <div id="socials-container">
+          <a
+            href="https://www.linkedin.com/in/disha-byakod-30332b15a/"
+            target="_blank"
+          >
+            <img
+              src="./images/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+            />
+          </a>
+          <a href="https://github.com/DishaByakod" target="_blank">
+            <img
+              src="./images/github.png"
+              alt="My LinkedIn profile"
+              class="icon"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <br />
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./images/disha.JPG"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <br /><br />
+        <div class="about-details-container">
+          <div class="text-container">
+            <p>
+              I am a dedicated software developer with 3 years of hands-on
+              experience. I possess strong analytical skills and a solid
+              understanding of JavaScript, HTML, CSS, and Bootstrap. Known for
+              my problem-solving abilities and strong work ethic, I am always
+              eager to take on new challenges and deliver high-quality
+              solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./images/javascript.png"
+                  alt="Experience icon"
+                  class="icon1"
+                  style="margin-top: 0.6rem"
+                />
+                <div>
+                  <h3 class="s-text" id="stx">JavaScript</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/c programming.png"
+                  alt="Experience icon"
+                  class="icon1"
+                  style="margin-top: 0.6rem"
+                />
+                <div>
+                  <h3 class="s-text" id="stx">C Programming</h3>
+                </div>
+              </article>
+              <!-- <article>
+              <img
+                src="./assets/javabl.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3 class="s-text">Java</h3>
+              </div>
+            </article> -->
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./images/c++.png"
+                  alt="Experience icon"
+                  class="icon3"
+                  style="margin-top: 0.6rem"
+                />
+                <div>
+                  <h3 class="s-text">C++</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./images/htmlbl.png"
+                  alt="Experience icon"
+                  class="icon-large"
+                />
+                <div>
+                  <h3 class="s-text">HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/cssbl.png"
+                  alt="Experience icon"
+                  class="icon3"
+                  style="margin-top: 0.2rem"
+                />
+                <div>
+                  <h3 class="s-text">CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/javascript.png"
+                  alt="Experience icon"
+                  class="icon3"
+                />
+                <div>
+                  <h3 class="s-text">JavaScript</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/bootstrap.png"
+                  alt="Experience icon"
+                  class="icon1"
+                  style="margin-top: 0.2rem"
+                />
+                <div>
+                  <h3 class="s-text">Bootstrap</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">OS and Soft Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./images/windows-temp.png"
+                  alt="Experience icon"
+                  class="icon3"
+                />
+                <div>
+                  <h3 class="s-text">Windows</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/linuxbl.png"
+                  alt="Experience icon"
+                  class="icon1"
+                />
+                <div>
+                  <h3 class="s-text">Linux</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/github.png"
+                  alt="Experience icon"
+                  class="maria-icon"
+                  style="margin-top: 0.5rem"
+                />
+                <div>
+                  <h3 class="s-text">GitHub</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/gitlabbl.png"
+                  alt="Experience icon"
+                  class="maria-icon"
+                  style="margin-top: 0.5rem"
+                />
+                <div>
+                  <h3 class="s-text">GitLab</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="experience-section" id="experience">
+      <div class="experience-header">
+        <h2>Professional Experience</h2>
+      </div>
+
+      <div class="experience-card">
+        <h3 class="job-title job-titleh3">
+          Cetazean Technology
+          <div>
+            <p class="company-name">Associate engineer</p>
+            <i class="fa fa-calendar"></i>
+            <span class="job-duration"> sep2022- aug2024</span>
+          </div>
+        </h3>
+
+        &nbsp;
+        <ul class="job-description">
+          <li>
+            Proactively identified and addressed potential bottlenecks in
+            application performance, resulting in consistently smooth end-user
+            experiences.
+          </li>
+
+          <li>
+            Contributed to the adaptation of applications such as HBOmax,
+            jiocinema, etc using javascript.
+          </li>
+          <li>
+            Provided support for html5 apps rendered on custom browser built
+            based on chromium.
+          </li>
+          <li>
+            Provided support for HbbTv features like video broadcast and media
+            object in same custom browser built for TV.
+          </li>
+        </ul>
+        <h4 class="skills-title">Skills Acquired</h4>
+        <div class="skills-list">
+          <span>JavaScript</span>
+          <span>Linux</span>
+          <span>HTML5</span>
+          <span>HbbTv</span>
+          <span>chromium</span>
+          <span>GitLab</span>
+        </div>
+      </div>
+
+      &nbsp;
+      <div class="experience-card">
+        <h3 class="job-title job-titleh3">
+          Cognizant infrastructure services
+          <div>
+            <p class="company-name">Engineer trainee (service desk)</p>
+            <i class="fa fa-calendar"></i>
+            <span class="job-duration">july2021 - aug2022</span>
+          </div>
+        </h3>
+        <ul class="job-description">
+          <li>
+            Provided excellent customer service by resolving the tickets raised
+            by them before the expected time of resolution
+          </li>
+          <li>
+            Maintained an organized workspace conducive to effective problem
+            solving, maximizing productivity during time-sensitive projects or
+            deadlines
+          </li>
+        </ul>
+        <h4 class="skills-title">Skills Acquired</h4>
+        <div class="skills-list">
+          <span>Windows</span>
+          <span>Mac</span>
+        </div>
+      </div>
+
+      <!-- Add more experience cards as needed -->
+    </section>
+
+    <!-- projects -->
+    <section class="project-section" id="projects">
+      <div class="experience-header">
+        <h2>Projects</h2>
+      </div>
+      <!-- Resource Center Project -->
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-image-container">
+            <div>
+              <h4 class="image-title">Home page</h4>
+              <a href="./images/BL.png" target="_blank">
+                <img
+                  src="./images/BL.png"
+                  alt="News Portal Project"
+                  class="project-image"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="project-title-container">
+            <h2 class="project-title">Bankist</h2>
+            <div>
+              <span style="font-size: 13px">
+                The "Bankist" website is a simple banking application built
+                using HTML, CSS, and JavaScript, designed to simulate a
+                user-friendly banking experience. It includes features like
+                transferring money, requesting loans, and closing accounts,
+                along with real-time balance updates and transaction history.
+                The app utilizes JavaScript for user interactivity, allowing
+                users to log in, view their balance, and perform transactions.
+                The layout is responsive, designed for a seamless experience on
+                both desktop and mobile devices. The interface is minimalistic
+                and focuses on clean, functional design for easy navigation.
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-footer">
+          <div class="project-content">
+            <div class="project-actions">
+              <a
+                href="https://github.com/DishaByakod/bankist"
+                class="project-button"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i
+                ><span style="text-decoration: none; font-size: small"
+                  >Git</span
+                >
+              </a>
+              <a
+                href="https://dishabyakod.github.io/bankist/"
+                class="project-button"
+                target="_blank"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i
+                ><span style="text-decoration: none; font-size: small"
+                  >Live</span
+                >
+              </a>
+            </div>
+          </div>
+
+          <div class="tech-stack">
+            <h2>TechStack Used</h2>
+            <div class="skills-list1">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-image-container">
+            <div>
+              <h4 class="image-title">Home page</h4>
+              <a href="./images/T10AM.png" target="_blank">
+                <img
+                  src="./images/T10AM.png"
+                  alt="News Portal Project"
+                  class="project-image"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="project-title-container">
+            <h2 class="project-title">Top 10 animated movies</h2>
+            <div>
+              <span style="font-size: 13px">
+                "Top 10 Animated Movies" by Disha Byakod, showcasing popular
+                films such as Soul, Up, Inside Out, Luca, and others. The page
+                highlights the movie titles, providing brief synopses, notable
+                characters, and insights into their plotlines. Each movie entry
+                includes a link to watch the trailer. The site is built using
+                basic web technologies, including HTML5, CSS, Bootstrap and
+                JavaScript. The layout is responsive, with visually engaging
+                images representing each movie, and the content is organized in
+                a user-friendly format for easy navigation and access to
+                information about the top animated films.
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-footer">
+          <div class="project-content">
+            <div class="project-actions">
+              <a
+                href="https://github.com/DishaByakod/Top10AnimatedMovies-ByDishaByakod"
+                class="project-button"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i
+                ><span style="text-decoration: none; font-size: small"
+                  >Git</span
+                >
+              </a>
+              <a
+                href="https://dishabyakod.github.io/Top10AnimatedMovies-ByDishaByakod/"
+                class="project-button"
+                target="_blank"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i
+                ><span style="text-decoration: none; font-size: small"
+                  >Live</span
+                >
+              </a>
+            </div>
+          </div>
+
+          <div class="tech-stack">
+            <h2>TechStack Used</h2>
+            <div class="skills-list1">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Bootstrap</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="education" style="margin-bottom: 3rem">
+      <h1 class="titler" style="margin-bottom: 3rem">
+        Education Journey <i class="fa fa-graduation-cap"></i>
+      </h1>
+
+      <div class="education-timeline">
+        <div class="education-card" style="margin-top: 1.5rem">
+          <div class="education-icon">🎓</div>
+          <div class="content">
+            <h2>GSSS Institute of Engineering and Technology for Women</h2>
+            <h3>Bachelor of Engineering</h3>
+            <p class="duration">2017 - 2021</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title" style="margin-bottom: 2rem">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <a href="mailto:examplemail@gmail.com" target="_blank">
+            <img
+              src="./images/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+          </a>
+          <p>
+            <a href="mailto:dishabyakod9@gmail.com" target="_blank"
+              >dishabyakod9@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <a
+            href="https://www.linkedin.com/in/disha-byakod-30332b15a/"
+            target="_blank"
+          >
+            <img
+              src="./images/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+          </a>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/disha-byakod-30332b15a/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container wh">
+          <a href="https://wa.me/+917259667558" target="_blank">
+            <img
+              src="./images/wh.webp"
+              alt="GitHub icon"
+              class="icon contact-icon em-icon"
+            />
+          </a>
+          <p style="margin-left: -0.85rem">
+            <a href="https://wa.me/+917259667558" target="_blank">WhatsApp</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-nav">
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+      document.querySelectorAll(".image-slider").forEach((slider) => {
+        const container = slider.querySelector(".image-container");
+        const images = slider.querySelectorAll(".slider-image");
+        const heading = slider.querySelector(".image-heading");
+        const headings = ["Login Page", "Dashboard", "Settings"]; // Add your headings here
+        let currentIndex = 0;
+
+        // Set initial width
+        container.style.width = `${images.length * 100}%`;
+        images.forEach((img) => (img.style.width = `${100 / images.length}%`));
+
+        slider.querySelector(".prev").addEventListener("click", () => {
+          currentIndex = (currentIndex - 1 + images.length) % images.length;
+          updateSlider();
+        });
+
+        slider.querySelector(".next").addEventListener("click", () => {
+          currentIndex = (currentIndex + 1) % images.length;
+          updateSlider();
+        });
+
+        function updateSlider() {
+          container.style.transform = `translateX(-${
+            currentIndex * (100 / images.length)
+          }%)`;
+          heading.textContent = headings[currentIndex];
+        }
+      });
+    </script>
+  </body>
+</html>
